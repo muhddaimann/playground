@@ -1,0 +1,73 @@
+Nehemiah Group – Polo Shirt Base Design Plan (Right Sleeve Red Variant)
+├─ Concept Goal: Achieve a clean white–red combination with a red right sleeve and a natural red-to-white gradient flow before adding logo or text.
+│
+├─ All View – Red-to-White Gradient Flow
+│ ├─ Body: Soft, natural diagonal gradient transitioning from red (right shoulder and upper chest) fading gently into white (left torso and waist).
+│ ├─ Collar: Black with thin red tipping (1 mm) along outer edge
+│ ├─ Sleeves:
+│ │ ├─ Left sleeve – solid white (keeps visual balance and cleanliness)
+│ │ └─ Right sleeve – solid red (bold accent that anchors the gradient flow)
+│ ├─ Accent: Gradient transition is smooth and seamless, visually connecting the red sleeve into the shirt body
+│ ├─ Back View (Base Only): Mostly white with right sleeve red for continuity
+│ ├─ Tone: Fresh • Dynamic • Balanced • Executive-sporty • Confident
+│ └─ Mood: Forward momentum • Corporate energy • Modern precision • Motivational presence
+
+Nehemiah Group – Polo Shirt Design Plan (Right Sleeve Red Variant + Hexagon Motif)
+├─ Concept Goal: Layer a symbolic motif (hexagon + motion lines) onto the red–white–black base to represent engineering precision, unity, and forward acceleration.
+│
+├─ All Views – Gradient + Motif Integration
+│ ├─ Body:
+│ │ ├─ Keep the soft diagonal gradient (red → white, right to left).
+│ │ ├─ Overlay faint hexagon outlines (2–3 large semi-transparent shapes) near upper right chest to midsection, aligned with the gradient direction.
+│ │ ├─ Hexagon edges slightly blurred or translucent, in light grey or muted red, to blend naturally with the gradient.
+│ │ └─ Represents Nehemiah’s engineering foundation and structural strength.
+│ ├─ Dynamic Lines:
+│ │ ├─ Add three thin angled red lines emerging subtly from the bottom right torso, sweeping diagonally upward to the left.
+│ │ ├─ Lines should fade gradually, matching gradient tone.
+│ │ └─ Symbolize Rejuvenate • Rebuild • Accelerate.
+│ ├─ Shoulder Highlight: Optional single thin red line across the right shoulder connecting sleeve to chest — acts as visual flow link.
+│ ├─ Collar: Keep matte black with red tipping (1 mm).
+│ ├─ Sleeves:
+│ │ ├─ Left – plain white
+│ │ └─ Right – solid red (serves as color anchor for motif flow).
+│ ├─ Balance: Ensure motifs don’t overpower gradient
+│ ├─ Back View:
+│ │ ├─ Faint continuation of hexagon pattern near the upper right shoulder blade, echoing front motif.
+│ │ └─ Keep lower back plain white for minimalist contrast.
+│ ├─ Tone: Futuristic • Technical • Elegant • Symbolic
+│ └─ Mood: Precision • Momentum • Innovation • Strength in unity
+
+
+playGround/
+├─ app/
+│  ├─ (tabs)/
+│  │  ├─ _layout.tsx
+│  │  ├─ index.tsx
+│  │  └─ settings.tsx
+│  ├─ _layout.tsx
+│  └─ index.tsx
+├─ src/
+│  └─ ui/
+│     ├─ components/
+│     │  ├─ Button.tsx
+│     │  ├─ Card.tsx
+│     │  ├─ Chip.tsx
+│     │  └─ Input.tsx
+│     ├─ primitives/
+│     │  ├─ Box.tsx
+│     │  ├─ Icon.tsx
+│     │  └─ Text.tsx
+│     ├─ theme/
+│     │  ├─ createTheme.ts
+│     │  ├─ ThemeProvider.tsx
+│     │  └─ themes.ts
+│     ├─ tokens/
+│     │  ├─ colors.ts
+│     │  ├─ elevation.ts
+│     │  ├─ motion.ts
+│     │  ├─ radius.ts
+│     │  ├─ spacing.ts
+│     │  └─ typography.ts
+│     └─ utils/
+│        ├─ color.ts
+│        └─ responsive.ts

@@ -1,7 +1,7 @@
 // Card.tsx
-import React from 'react';
-import { Box, BoxProps } from '../primitives/Box';
-import { useTheme } from '../theme/ThemeProvider';
+import React from "react";
+import { Box, BoxProps } from "../primitives/Box";
+import { useTheme } from "../theme/themeProvider";
 
 export const Card = (props: BoxProps) => {
   const theme = useTheme();

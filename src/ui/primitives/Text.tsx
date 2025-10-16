@@ -1,6 +1,10 @@
 // Text.tsx
-import { Text as RNText, TextProps as RNTextProps, StyleSheet } from 'react-native';
-import { useTheme } from '../theme/ThemeProvider';
+import {
+  Text as RNText,
+  TextProps as RNTextProps,
+  StyleSheet,
+} from "react-native";
+import { useTheme } from "../theme/themeProvider";
 
 export type TextProps = RNTextProps;
 

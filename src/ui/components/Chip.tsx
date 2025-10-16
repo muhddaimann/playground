@@ -1,8 +1,8 @@
 // Chip.tsx
-import React from 'react';
-import { Box } from '../primitives/Box';
-import { Text } from '../primitives/Text';
-import { useTheme } from '../theme/ThemeProvider';
+import React from "react";
+import { Box } from "../primitives/Box";
+import { Text } from "../primitives/Text";
+import { useTheme } from "../theme/themeProvider";
 
 export type ChipProps = {
   label: string;
